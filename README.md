@@ -10,3 +10,4 @@
 3.  基于RT-Thread达特甲醛探测仪
 4.  基于RT-Thread智慧农业监测系统
 5.  腾讯连连参赛作品-基于TencentOS tiny智能达特甲醛探测仪
+6.  基于TencentOS tiny情书打印机
