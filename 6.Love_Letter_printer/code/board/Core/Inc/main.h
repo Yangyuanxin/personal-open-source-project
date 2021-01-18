@@ -47,28 +47,9 @@ extern "C" {
 
 #include "rtc.h"
 #include "key.h"
-#include "para.h"
 #include "filesystem.h"
 
-#include "cmd.h"
-#include "menu.h"
-#include "menu_ui.h"
-
-#include "logic.h"
-#include "log_ui.h"
-#include "main_ui.h"
-#include "conf_ui.h"
-#include "para_ui.h"
-#include "recovery_ui.h"
-#include "datetime_ui.h"
-#include "password_ui.h"
-#include "version_info_ui.h"
-#include "password_select_ui.h"
-
-
 #include "app_init.h"
-#include "dart_sensor.h"
-#include "lcd_plot_display.h"
 #include "mc_printf_str.h"
 
 //腾讯云定制平台

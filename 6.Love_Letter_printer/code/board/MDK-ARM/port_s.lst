@@ -230,12 +230,13 @@ ARM Macro Assembler    Page 4
   187 000000D8                 END
               E000ED08 
               E000ED04 
-Command Line: --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=interwork -
--depend=main\port_s.d -omain\port_s.o -I.\RTE\_main -IC:\Keil_v5\ARM\PACK\ARM\C
-MSIS\5.3.0\CMSIS\Include -IC:\Keil_v5\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers
-\CMSIS\Device\ST\STM32L4xx\Include --predefine="__MICROLIB SETA 1" --predefine=
-"__UVISION_VERSION SETA 525" --predefine="_RTE_ SETA 1" --predefine="STM32L431x
-x SETA 1" --list=port_s.lst ..\..\arch\arm\arm-v7m\cortex-m4\armcc\port_s.S
+Command Line: --xref --diag_suppress=9931 --cpu=Cortex-M4.fp.sp --apcs=interwor
+k --depend=main\port_s.d -omain\port_s.o -I.\RTE\_main -IC:\Users\Administrator
+\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include -IC:\Users\Administ
+rator\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\
+STM32L4xx\Include --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSIO
+N SETA 529" --predefine="_RTE_ SETA 1" --predefine="STM32L431xx SETA 1" --list=
+port_s.lst ..\..\arch\arm\arm-v7m\cortex-m4\armcc\port_s.S
 
 
 
