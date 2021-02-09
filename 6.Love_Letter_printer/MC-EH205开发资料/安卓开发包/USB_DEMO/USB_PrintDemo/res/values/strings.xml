@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">USB_PrintDemo</string>
+    
+ <!--NormalPrint button  -->
+     <string name="printtext">Print Text</string>
+    <string name="printbarcode">Print Barcode</string>
+    <string name="printqrcode">Print Qrcode</string>
+    <string name="printpicture">Print Picture</string>
+    <string name="printtestpage">PrintTestPage</string>
+    <string name="check_for_paper">Check for paper</string>
+    <string name="cuttall_paper">cuttall paper</string>
+     <string name="cutting_paper">cutting paper</string>
+        <string name="queue_print">Queue print</string>
+       <!-- Toast -->    
+      <string name="no_printed_pictures">no printed pictures</string>
+    <string name="printer_have_paper">printer have paper</string>
+    <string name="printer_does_not_have_paper">printer does not have paper</string>
+    <string name="successful_connection_printer">successful connection printer</string>
+    <string name="printer_is_disconnected">printer is disconnected</string>
+      <string name="serial_port_does_not_open">serial port does not open</string>
+    <string name="failed_to_open_the_serial_port">failed to open the serial port</string>
+</resources>

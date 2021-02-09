@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.szzk.percent.support.PercentLinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"   
+    android:id="@+id/pomenu_item_ll"
+    android:orientation="vertical" >
+   
+	<TextView 
+    android:id="@+id/textView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:text="Item"
+    android:singleLine="true"  
+    android:textColor="#444"
+    app:layout_textSizePercent="8%w"   
+    android:layout_marginBottom="5dp"
+    />
+</com.szzk.percent.support.PercentLinearLayout>

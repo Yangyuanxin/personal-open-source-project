@@ -1,0 +1,48 @@
+<com.szzk.percent.support.PercentRelativeLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:imagecontrol="http://schemas.android.com/apk/res-auto" 
+     android:background="@drawable/background_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+ <com.szzk.percent.support.PercentRelativeLayout
+        android:id="@+id/top_bg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"     
+        app:layout_heightPercent="12%w"    
+        android:background="@drawable/top_bg"
+         >
+         <TextView
+            android:id="@+id/title_tv"
+            app:layout_heightPercent="11%w"     
+         	android:layout_width="match_parent"
+         	android:layout_height="0dp"
+         	android:gravity="center"
+         	android:text="@string/test_printer"
+         	app:layout_textSizePercent="6%w"         	  
+         	android:textColor="#fff"
+         	android:layout_centerVertical="true"
+         />
+        <ImageView 
+            android:id="@+id/back_iv"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_widthPercent="8%w"
+        	app:layout_heightPercent="8%w"
+        	android:background="@drawable/back"
+        	android:layout_centerVertical="true"
+        	android:layout_marginLeft="5dp"
+        	android:onClick="back"
+            />   
+	 </com.szzk.percent.support.PercentRelativeLayout>
+	
+ 		
+     <ImageView 
+         android:layout_below="@+id/edittext"
+          android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/image_iv"
+           android:background="#ffffff"
+         />
+ 		
+</com.szzk.percent.support.PercentRelativeLayout>

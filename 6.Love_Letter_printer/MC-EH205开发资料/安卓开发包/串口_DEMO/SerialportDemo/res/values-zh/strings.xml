@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">串口打印DEMO</string>
+    <string name="open_the_serial_port">打开串口</string>
+    <string name="search_printer">搜索打印机</string>
+    <string name="test_printer">测试打印</string>
+     <string name="connecting1">连接中</string>
+    <string name="printer_connection_failure">打印机连接失败！</string>
+    <string name="app_stop">程序错误</string>
+    <string name="printer_out_of_paper">打印机缺纸</string>
+    <string name="connected">串口已打开</string>
+    <string name="unconnected">串口未打开</string>
+     <string name="printer_connected">打印机已连接</string>
+      
+    <!--NormalPrint button  -->
+     <string name="printtext">打印文本</string>
+    <string name="printbarcode">打印条形码</string>
+    <string name="printqrcode">打印二维码</string>
+    <string name="printpicture">打印图 片</string>
+    <string name="printtestpage">打印测试页</string>
+    <string name="check_for_paper">检查是否有纸</string>
+    <string name="cuttall_paper">全切</string>
+    <string name="cutting_paper">半切纸</string>
+    <string name="queue_print">队列打印</string>
+       
+    <!-- Toast -->    
+    <string name="no_printed_pictures">没有打印的图片</string>
+    <string name="printer_have_paper">打印机有纸</string>
+    <string name="printer_does_not_have_paper">打印机没有纸</string>
+    <string name="successful_connection_printer">连接打印机成功</string>
+    <string name="printer_is_disconnected">打印机断开连接</string>
+    <string name="serial_port_does_not_open">串口没有打开</string>
+    <string name="failed_to_open_the_serial_port">串口打开失败</string>
+    <!-- set -->
+        <string name="please_enter_a_serial_port_name">请输入串口名称！</string>
+         <string name="saved_successfully">保存成功！</string>
+       <string name="printer_seting">设置打印机</string>
+        <string name="save_seting">保存设置</string>
+    <string name="baud_rate">波特率:</string>
+    <string name="com_name">串口名称:</string>
+    <string name="seting">设 置</string>
+     <string name="tishi">当前默认的串口名称不一定是对的，修改串口名称是根据当前开发板上的串口名称对应，如果不知道串口名称，请问开发板子提供商要资料。</string>
+</resources>

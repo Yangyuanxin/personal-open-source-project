@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Serial Port Print DEMO</string>
+    <string name="open_the_serial_port">Open the serial port</string>
+    <string name="test_printer">Test printer</string>
+     <string name="connecting1">connecting</string>
+    <string name="printer_connection_failure">Printer connection failure！</string>
+    <string name="app_stop">APP STOP</string>
+    <string name="printer_out_of_paper">Printer out of paper</string>
+     <string name="connected">Connected</string>
+      <string name="unconnected">Unconnected</string>
+       <string name="printer_connected">Printer connected</string>
+      
+      <!--NormalPrint button  -->
+     <string name="printtext">Print Text</string>
+    <string name="printbarcode">Print Barcode</string>
+    <string name="printqrcode">Print Qrcode</string>
+    <string name="printpicture">Print Picture</string>
+    <string name="printtestpage">PrintTestPage</string>
+    <string name="check_for_paper">Check for paper</string>
+    <string name="cuttall_paper">cuttall paper</string>
+     <string name="cutting_paper">cutting paper</string>
+        <string name="queue_print">Queue print</string>
+       <!-- Toast -->    
+      <string name="no_printed_pictures">no printed pictures</string>
+    <string name="printer_have_paper">printer have paper</string>
+    <string name="printer_does_not_have_paper">printer does not have paper</string>
+    <string name="successful_connection_printer">successful connection printer</string>
+    <string name="printer_is_disconnected">printer is disconnected</string>
+      <string name="serial_port_does_not_open">serial port does not open</string>
+    <string name="failed_to_open_the_serial_port">failed to open the serial port</string>
+    <!-- set -->
+    
+    <string name="please_enter_a_serial_port_name">Please enter a serial port name！</string>
+         <string name="saved_successfully">Saved successfully</string>
+       <string name="printer_seting">Printer seting</string>
+        <string name="save_seting">Save Seting</string>
+    <string name="baud_rate">Baud Rate:</string>
+    <string name="com_name">Serial port name:</string>
+    <string name="seting">seting</string>
+     <string name="tishi">The default serial port name is not necessarily correct. Modifying the serial port name is based on the serial port name on the current development board. If you do not know the serial port name, ask the development board supplier.。</string>
+
+</resources>
