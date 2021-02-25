@@ -11,3 +11,4 @@
 4.  基于RT-Thread智慧农业监测系统
 5.  基于TencentOS Tiny的智能甲醛探测与云打印系统(腾讯连连大赛参赛作品)
 6.  基于TencentOS tiny情书打印机
+7.  SPI_FLASH fatfs & usb_msc扩容
