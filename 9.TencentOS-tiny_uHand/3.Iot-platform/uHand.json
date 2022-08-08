@@ -1,0 +1,130 @@
+{
+    "version": "1.0",
+    "properties": [
+      {
+        "id": "default_uHand",
+        "name": "复位",
+        "desc": "复位手掌",
+        "mode": "rw",
+        "required": true,
+        "define": {
+          "type": "bool",
+          "mapping": {
+            "0": "张手",
+            "1": "复位"
+          }
+        }
+      },
+      {
+        "id": "thumbs",
+        "name": "大拇指",
+        "desc": "",
+        "mode": "rw",
+        "define": {
+          "type": "int",
+          "min": "900",
+          "max": "2000",
+          "start": "900",
+          "step": "1",
+          "unit": "脉冲个数"
+        },
+        "required": false
+      },
+      {
+        "id": "index_finger",
+        "name": "食指",
+        "desc": "",
+        "mode": "rw",
+        "define": {
+          "type": "int",
+          "min": "900",
+          "max": "2000",
+          "start": "900",
+          "step": "1",
+          "unit": "脉冲个数"
+        },
+        "required": false
+      },
+      {
+        "id": "middle_finger",
+        "name": "中指",
+        "desc": "",
+        "mode": "rw",
+        "define": {
+          "type": "int",
+          "min": "900",
+          "max": "2000",
+          "start": "900",
+          "step": "1",
+          "unit": "脉冲个数"
+        },
+        "required": false
+      },
+      {
+        "id": "ring_finger",
+        "name": "无名指",
+        "desc": "",
+        "mode": "rw",
+        "define": {
+          "type": "int",
+          "min": "900",
+          "max": "2000",
+          "start": "900",
+          "step": "1",
+          "unit": "脉冲个数"
+        },
+        "required": false
+      },
+      {
+        "id": "little_finger",
+        "name": "小拇指",
+        "desc": "",
+        "mode": "rw",
+        "define": {
+          "type": "int",
+          "min": "900",
+          "max": "2000",
+          "start": "900",
+          "step": "1",
+          "unit": "脉冲个数"
+        },
+        "required": false
+      },
+      {
+        "id": "wrist",
+        "name": "手腕",
+        "desc": "",
+        "mode": "rw",
+        "define": {
+          "type": "int",
+          "min": "500",
+          "max": "2500",
+          "start": "500",
+          "step": "1",
+          "unit": "脉冲个数"
+        },
+        "required": false
+      },
+      {
+        "id": "_mesh_generic_onoff",
+        "name": "开关",
+        "desc": "attrType=0xf000",
+        "mode": "rw",
+        "define": {
+          "type": "bool",
+          "mapping": {
+            "0": "关",
+            "1": "开"
+          }
+        },
+        "required": false,
+        "type": "bool"
+      }
+    ],
+    "events": [],
+    "actions": [],
+    "profile": {
+      "ProductId": "6AOIHRSLBY",
+      "CategoryId": "539"
+    }
+  }
